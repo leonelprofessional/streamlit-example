@@ -25,3 +25,7 @@ airline_data =  pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.
 data = airline_data.sample(n=500, random_state=42)
 # Pie Chart Creation
 fig = px.pie(data, values='Flights', names='DistanceGroup', title='Distance group proportion by flights')
+
+    st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=500)
+        .mark_circle(color='#0068c9', opacity=0.5)
+        .encode(x='x:Q', y='y:Q'))

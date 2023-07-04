@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 from collections import namedtuple
 import altair as alt
 import math

@@ -27,6 +27,20 @@ data = airline_data.sample(n=500, random_state=42)
 st.title("Hello world!")  # add a title
 st.write(data) 
 
+  # Add some matplotlib code !
+  fig, ax = plt.subplots()
+  data.hist(
+    bins=8,
+    column="Age",
+    grid=False,
+    figsize=(8, 8),
+    color="#86bf91",
+    zorder=2,
+    rwidth=0.9,
+    ax=ax,
+  )
+  st.write(fig)
+
 #fig = px.pie(data, values='Flights', names='DistanceGroup', title='Distance group proportion by flights')
 
 

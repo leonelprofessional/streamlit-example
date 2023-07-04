@@ -33,7 +33,7 @@ st.write(data)
 fig, ax = plt.subplots()
 data.hist(
     bins=8,
-    column="Age",
+    column="DepDelay",
     grid=False,
     figsize=(8, 8),
     color="#86bf91",

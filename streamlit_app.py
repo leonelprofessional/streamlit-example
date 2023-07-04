@@ -1,8 +1,5 @@
 import pandas as pd
 import plotly.express as px
-import dash
-import dash_html_components as html
-import dash_core_components as dcc
 
 # Read the airline data into pandas dataframe
 airline_data =  pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/airline_data.csv', 

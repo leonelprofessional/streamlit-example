@@ -3,4 +3,4 @@ pandas
 streamlit
 dash
 plotly
-matplotlib.pyplot
+matplotlib

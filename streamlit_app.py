@@ -26,7 +26,7 @@ airline_data =  pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.
 # Randomly sample 500 data points. Setting the random state to be 42 so that we get same result.
 data = airline_data.sample(n=500, random_state=42)
 # Pie Chart Creation
-st.title("Hello world!")  # add a title
+st.title("Used Data")  # add a title
 st.write(data) 
 
 # Add some matplotlib code !

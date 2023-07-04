@@ -4,7 +4,7 @@ import math
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 """
 # Welcome to Streamlit!
@@ -28,7 +28,7 @@ data = airline_data.sample(n=500, random_state=42)
 st.title("Hello world!")  # add a title
 st.write(data) 
 
-  # Add some matplotlib code !
+# Add some matplotlib code !
 fig, ax = plt.subplots()
 data.hist(
     bins=8,

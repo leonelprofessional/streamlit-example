@@ -4,6 +4,7 @@ import math
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import matplotlib.pyplot as plt
 
 """
 # Welcome to Streamlit!

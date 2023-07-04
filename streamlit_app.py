@@ -28,8 +28,8 @@ st.title("Hello world!")  # add a title
 st.write(data) 
 
   # Add some matplotlib code !
-  fig, ax = plt.subplots()
-  data.hist(
+fig, ax = plt.subplots()
+data.hist(
     bins=8,
     column="Age",
     grid=False,
@@ -38,8 +38,8 @@ st.write(data)
     zorder=2,
     rwidth=0.9,
     ax=ax,
-  )
-  st.write(fig)
+)
+st.write(fig)
 
 #fig = px.pie(data, values='Flights', names='DistanceGroup', title='Distance group proportion by flights')
 

@@ -1,11 +1,13 @@
+import streamlit as st
+import psycopg2
+import psycopg2.extras
+
 DB_HOST = "ep-floral-snowflake-805891.us-west-2.retooldb.com"
 DB_NAME = "retool"
 DB_USER = "retool"
 DB_PASS = "8ADj0SJrwGFe"
 
 
-import psycopg2
-import psycopg2.extras
 
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
 

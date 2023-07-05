@@ -3,4 +3,4 @@ pandas
 streamlit
 dash
 plotly
-psycopg2
+psycopg2==2.8.5

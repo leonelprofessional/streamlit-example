@@ -1,6 +1,6 @@
+psycopg2==2.8.5
 altair
 pandas
 streamlit
 dash
 plotly
-psycopg2==2.8.5
